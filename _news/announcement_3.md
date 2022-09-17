@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-10-01 00:00:00-0400
 inline: true
 related_posts: false
+show: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Started Ph.D as Research Assistant in the Social Computing Group at Idiap Research Institute under the supervision of Prof. Daniel Gatica-Perez.
