@@ -1,12 +1,10 @@
+# Ravinithesh's comment
+
+Personal Website and left readme as it is
+
 # al-folio
-
-<div align="center">
-
-[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
-
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
-
----
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![Maintainers](https://img.shields.io/badge/maintainers-4-success.svg)](#maintainers)
@@ -20,7 +18,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
 [![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
 
-</div>
+A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
+If you like the theme, give it a star!
+
+[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
 ## User community
 
@@ -208,27 +209,21 @@ Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a h
 
 ### Desktop
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/alshedivat/al-folio/blob/main/lighthouse_results/desktop/alshedivat_github_io_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
-
-### Mobile
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/alshedivat/al-folio/blob/main/lighthouse_results/mobile/alshedivat_github_io_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=mobile)
-
 ## Table Of Contents
 
+- [Ravinithesh's comment](#ravinitheshs-comment)
 - [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
-    - [Mobile](#mobile)
   - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
-  - [Installing and Deploying](#installing-and-deploying)
-  - [Customizing](#customizing)
+    - [Installation](#installation)
+      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+      - [Local Setup (Standard)](#local-setup-standard)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [FAQ](#faq)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -246,7 +241,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
       - [Code quality checks](#code-quality-checks)
-  - [FAQ](#faq)
+  - [FAQ](#faq-1)
   - [Contributing](#contributing)
     - [Maintainers](#maintainers)
     - [All Contributors](#all-contributors)
@@ -257,13 +252,214 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
 
-## Installing and Deploying
+### Installation
 
-For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
+For a hands-on walkthrough of al-folio installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
 
-## Customizing
+---
 
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
+#### Local setup using Docker (Recommended on Windows)
+
+You need to take the following steps to get `al-folio` up and running in your local machine:
+
+* First, [install docker](https://docs.docker.com/get-docker/)
+* Then, clone this repository to your machine:
+
+```bash
+git clone git@github.com:<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
+
+Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
+
+```bash
+./bin/dockerhub_run.sh
+```
+
+Note that when you run it for the first time, it will download a docker image of size 300MB or so.
+
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`bin/dockerhub_run.sh`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+
+<details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
+
+> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
+
+First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+  
+```bash
+./bin/docker_build_image.sh  
+```
+
+Run the website!
+
+```bash
+./bin/docker_run.sh
+```
+
+> To change port number, you can edit `docker_run.sh` file.
+
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
+
+</details>
+
+---
+
+#### Local Setup (Standard)
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+
+```bash
+git clone git@github.com:<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+bundle install
+bundle exec jekyll serve
+```
+
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+
+---
+
+#### Deployment
+
+Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
+Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
+
+**For personal and organization webpages:**
+
+1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
+3. Set up automatic deployment of your webpage (see instructions below).
+4. Make changes, commit, and push!
+5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
+
+**For project pages:**
+
+1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
+2. Set up automatic deployment of your webpage (see instructions below).
+3. Make changes, commit, and push!
+4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+
+**To enable automatic deployment:**
+
+1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
+2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+
+<details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
+
+If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+
+```bash
+./bin/deploy
+```
+
+uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+
+</details>
+
+<details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+
+If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+
+```bash
+bundle exec jekyll build
+```
+
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` foder to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+
+</details>
+
+<details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
+
+**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+
+Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+For a user site this could well be something like `$HOME/<user>.github.io`.
+
+Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
+
+Then from the website sources dir (commonly your al-folio fork's clone):
+
+```bash
+bundle exec jekyll build --destination $HOME/repo/publishing-source
+```
+
+This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
+
+**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
+
+The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
+
+> Destination folders are cleaned on site builds
+>
+> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
+>
+> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
+
+If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
+
+**Note:** Do *not* run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
+
+</details>
+
+---
+
+#### Upgrading from a previous version
+
+If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
+
+```bash
+# Assuming the current directory is <your-repo-name>
+$ git remote add upstream https://github.com/alshedivat/al-folio.git
+$ git fetch upstream
+$ git rebase v0.3.5
+```
+
+If you have extensively customized a previous version, it might be trickier to upgrade.
+You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
+See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
+If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
+
+---
+
+### FAQ
+
+Here are some frequently asked questions.
+If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
+
+1. **Q:** After I fork and setup the repo, I get a deployment error.
+   Isn't the website supposed to correctly deploy automatically? <br>
+   **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
+   Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
+   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
+   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+
+2. **Q:** I am using a custom domain (e.g., `foo.com`).
+   My custom domain becomes blank in the repository settings after each deployment.
+   How do I fix that? <br>
+   **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
+   The file should contain your custom domain name.
+   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+
+3. **Q:** My webpage works locally.
+    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
+    How do I fix that? <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+   Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
+   If you are deploying a personal or organization website, leave `baseurl` blank.
+   If you are deploying a project page, set `baseurl: /<your-project-name>/`.
+
+4. **Q:** Atom feed doesn't work. Why?
+   <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
+  Make sure to fill them in an appropriate way and try again.
 
 ## Features
 
@@ -302,7 +498,65 @@ Your publications' page is generated automatically from your BibTex bibliography
 
 You can add extra information to a publication, like a PDF file in the [assets/pdf/](assets/pdf/) directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
 
-[![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
+<details><summary>(click to expand) <strong>Author annotation:</strong></summary>
+
+In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+
+```
+scholar:
+  last_name: Einstein
+  first_name: [Albert, A.]
+```
+
+If the entry matches the last name and one form of the first names, it will be underlined.
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+The coauthor data format in `_data/coauthors.yml` is as follows,
+
+```
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+"Bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+```
+
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
+
+</details>
+
+<details><summary>(click to expand) <strong>Buttons (through custom bibtex keywords):</strong></summary>
+
+There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
+
+* `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
+* `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
+* `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
+* `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
+* `html`: Inserts a "HTML" button redirecting to the user-specified link
+* `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+* `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+* `blog`: Adds a "Blog" button redirecting to the specified link
+* `code`: Adds a "Code" button redirecting to the specified link
+* `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+* `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+* `website`: Adds a "Website" button redirecting to the specified link
+
+You can implement your own buttons by editing the bib.html file.
+
+</details>
 
 ---
 
@@ -361,7 +615,7 @@ Edit the `_data/repositories.yml` and change the `github_users` and `github_repo
 
 You may also use the following codes for displaying this in any other pages.
 
-```html
+```
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -418,9 +672,9 @@ By default, there will be a related posts section on the bottom of the blog post
 
 Currently, we run some checks to ensure that the code quality and generated site are good. The checks are done using GitHub Actions and the following tools:
 
-- [Prettier](https://prettier.io/) - check if the formatting of the code follows the style guide
-- [lychee](https://lychee.cli.rs/) - check for broken links
-- [Axe](https://github.com/dequelabs/axe-core) (need to run manually) - do some accessibility testing
+* [Prettier](https://prettier.io/) - check if the formatting of the code follows the style guide
+* [lychee](https://lychee.cli.rs/) - check for broken links
+* [Axe](https://github.com/dequelabs/axe-core) (need to run manually) - do some accessibility testing
 
 We decided to keep `Axe` runs manual because fixing the issues are not straightforward and might be hard for people without web development knowledge.
 
