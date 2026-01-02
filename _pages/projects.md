@@ -5,7 +5,7 @@ permalink: /projects/
 description: A subset of my projects
 nav: true
 nav_order: 3
-display_categories: [Bachelor, Master]
+display_categories: [Master, Bachelor]
 horizontal: false
 ---
 
