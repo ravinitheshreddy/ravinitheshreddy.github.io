@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "",
-      "position": ,
+      "position": "",
       "url": "",
       "startDate": "",
       "endDate": "",
@@ -61,7 +61,7 @@
       "endDate": "",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        ""
       ]
     }
   ],
@@ -147,12 +147,8 @@
       "level": "",
       "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "",
+        ""
       ]
     }
   ],
@@ -173,12 +169,9 @@
       "name": "",
       "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "",
+        "",
+        ""
       ]
     }
   ],
@@ -199,8 +192,8 @@
       "name": "",
       "summary": "",
       "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
+        "",
+        ""
       ],
       "startDate": "",
       "endDate": "",
