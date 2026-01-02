@@ -410,6 +410,18 @@ ninja.data = [{
           section: "News",},{id: "news-generative-ai-literacy-twelve-defining-competencies-got-just-published-to-acm-dgov-digital-government-research-and-practice",
           title: 'Generative AI Literacy: Twelve Defining Competencies got just published to ACM DGOV (Digital...',
           description: "",
+          section: "News",},{id: "news-our-work-co-designing-with-multiple-stakeholders-and-datasets-a-community-centered-process-to-understand-youth-deviance-in-the-italian-city-of-turin-got-accepted-for-acm-international-conference-on-communities-and-technologies-c-amp-amp-t-2025",
+          title: 'Our work Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand...',
+          description: "",
+          section: "News",},{id: "news-presented-co-designing-with-multiple-stakeholders-and-datasets-a-community-centered-process-to-understand-youth-deviance-in-the-italian-city-of-turin-at-acm-c-amp-amp-t-2025-in-siegen-germany",
+          title: 'Presented Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand Youth...',
+          description: "",
+          section: "News",},{id: "news-co-designing-with-multiple-stakeholders-and-datasets-is-now-available-online",
+          title: 'Co-Designing with Multiple Stakeholders and Datasets is now available online.',
+          description: "",
+          section: "News",},{id: "news-our-work-ddialogue-a-collaborative-framework-for-cross-sectoral-dialogue-through-data-got-accepted-for-acm-participatory-design-conference-pdc-2025",
+          title: 'Our work DDialogue: a Collaborative Framework for Cross-Sectoral Dialogue through Data got accepted...',
+          description: "",
           section: "News",},{id: "projects-adaptive-learning-in-extreme-learning-machines",
           title: 'Adaptive Learning in Extreme Learning Machines',
           description: "Developed formulations and software for adaptive learning (using Actor Critic) in Extreme Learning Machines (ELM) and it performed 2X faster and at comparable level with a similar system developed used Artificial Neural Networks on a hard industrial problem {% cite 8628664 %}.",
@@ -456,27 +468,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
             },},{
-        id: 'social-organization',
-        title: 'Organization',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-username',
-        title: 'Username',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-acm',
-        title: 'ACM DL',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dl.acm.org/profile//", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -489,13 +480,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/ravinitheshreddy", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
