@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "For full list, visit my [Google Scholar](https://scholar.google.com/citations?user=clymhpMAAAAJ) profile",
+          description: "For full list, visit my Google Scholar profile",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -427,7 +427,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-adaptive-learning-in-extreme-learning-machines",
           title: 'Adaptive Learning in Extreme Learning Machines',
-          description: "Developed formulations and software for adaptive learning (using Actor Critic) in Extreme Learning Machines (ELM) and it performed 2X faster and at comparable level with a similar system developed used Artificial Neural Networks on a hard industrial problem {% cite 8628664 %}.",
+          description: "Developed formulations and software for adaptive learning (using Actor Critic) in Extreme Learning Machines (ELM) and it performed 2X faster and at comparable level with a similar system developed used Artificial Neural Networks on a hard industrial problem.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-terzani-online-museum",
