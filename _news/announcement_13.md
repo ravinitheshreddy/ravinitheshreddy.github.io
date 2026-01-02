@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-01 00:00:00-0400
+date: 2025-07-21 14:20:00-0400
 inline: true
 related_posts: false
 ---
 
-[`Co-Designing with Multiple Stakeholders and Datasets`](https://dl.acm.org/doi/10.1145/3742800.3742848) is now available online.
+Presented and won the Best Paper Award at at ACM C&T 2025 in Siegen, Germany for [`Co-Designing with Multiple Stakeholders and Datasets`](https://arxiv.org/abs/2510.21467) paper. 
