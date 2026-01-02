@@ -9,9 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Centre du Parc </p>
-    <p>Rue Marconi 19, Martigny </p>
-    <p>Switzerland </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
@@ -29,9 +26,7 @@ announcements:
 
 I am a fourth-year [Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) candidate at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/). I am also a fellow of the [EPFL PhD Excellence program](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/)'s [3rd cohort](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/cohort-3/).
 
-I am working on Participatory AI and Generative AI Literacy for designing and developing data-assisted participatory decision-making computational systems/tools for urban community decision-making. I collaborate(d) with multiple European cities, NGOs, and Educators in Teacher training colleges and universities through my PhD work. My PhD research is part of the [ELIAS](https://elias-ai.eu/) and [IcARUS](https://www.icarus-innovation.eu/) projects of EU Horizon research and InterInstitutional projects of Canton of Valais, Switzerland.
-
-I work at the intersection of Participatory AI, Human-AI Interaction (HAI), and AI Literacy. I study how people engage with information and technology in civic and social contexts, and I design and evaluate civic tools and participatory processes that support collective sensemaking and decision-making. My current work focuses on GenAI literacy: building competency-oriented approaches, assessing learner needs, and co-designing educational modules and interventions that help people use generative AI effectively, critically, and responsibly. I combine data science/ML (data pipelines, modeling, evaluation) with human-centered methods (participatory design, prototyping, workshop-based inquiry).
+I work at the intersection of Participatory AI, Human-AI Interaction (HAI), and AI Literacy. I study how people engage with information and technology in civic and social contexts, and I design and evaluate civic tools and participatory processes that support collective sensemaking and decision-making. My current work focuses on GenAI literacy: building competency-oriented approaches, assessing learner needs, and co-designing educational modules and interventions that help people use generative AI effectively, critically, and responsibly. I combine data science/ML (data pipelines, modeling, evaluation) with human-centered methods (participatory design, prototyping, workshop-based inquiry).  I collaborate(d) with multiple European cities, NGOs, and Educators in Teacher training colleges and universities through my PhD work. My PhD research is part of the [ELIAS](https://elias-ai.eu/) and [IcARUS](https://www.icarus-innovation.eu/) projects of EU Horizon research and InterInstitutional projects of Canton of Valais, Switzerland.
 
 I'm interested in collaborations with researchers, civil society, and public institutions on projects involving social media measurement, participatory/interactive AI systems, and AI literacy interventions. I also supervise semester and thesis projects in these areas, feel free to email me.
 
