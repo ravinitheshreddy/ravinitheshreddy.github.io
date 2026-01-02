@@ -5,7 +5,7 @@ description: This project presents a web-based interactive visualization of phot
 img: assets/img/face_of_war.png
 redirect: https://cables.gl/view/6093c20558373f2a5765faa4
 importance: 3
-category: 
+category: Master's
 report: https://nbviewer.org/github/ravinitheshreddy/face_of_the_war/blob/main/report/Face_of_the_War.pdf
 website: https://cables.gl/view/6093c20558373f2a5765faa4
 related_publications: false
