@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <em> PhD @ Idiap and EPFL </em>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Centre du Parc </p>
+    <p>Rue Marconi 19, Martigny </p>
+    <p>Switzerland </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -21,14 +21,18 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fourth-year [Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) candidate at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/). I am also a fellow of the [EPFL PhD Excellence program](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/)'s [3rd cohort](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/cohort-3/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am working on Participatory AI and Generative AI Literacy for designing and developing data-assisted participatory decision-making computational systems/tools for urban community decision-making. I collaborate(d) with multiple European cities, NGOs, and Educators in Teacher training colleges and universities through my PhD work. My PhD research is part of the [ELIAS](https://elias-ai.eu/) and [IcARUS](https://www.icarus-innovation.eu/) projects of EU Horizon research and InterInstitutional projects of Canton of Valais, Switzerland.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I work at the intersection of Participatory AI, Human-AI Interaction (HAI), and AI Literacy. I study how people engage with information and technology in civic and social contexts, and I design and evaluate civic tools and participatory processes that support collective sensemaking and decision-making. My current work focuses on GenAI literacy: building competency-oriented approaches, assessing learner needs, and co-designing educational modules and interventions that help people use generative AI effectively, critically, and responsibly. I combine data science/ML (data pipelines, modeling, evaluation) with human-centered methods (participatory design, prototyping, workshop-based inquiry).
+
+I'm interested in collaborations with researchers, civil society, and public institutions on projects involving social media measurement, participatory/interactive AI systems, and AI literacy interventions. I also supervise semester and thesis projects in these areas, feel free to email me.
+
+Previously, I was a Data Scientist in Product Development and Algorithm Development team at [Ground Inc.](https://en.groundinc.co.jp/), Tokyo, after graduating as a [Computer Science Engineer](https://www.mahindrauniversity.edu.in/computer-science-engineering) from [Mahindra École Centrale](https://www.mahindrauniversity.edu.in/schools/school-of-engineering) with a thesis on Adaptive Critic Design for Extreme Learning Machines. After a spell at Ground Inc., I finished a [Digital Humanities MSc](https://www.epfl.ch/education/master/programs/digital-humanities/) at EPFL with a thesis on creating a system to search for famous artwork patterns in children's drawings and an internship at [Institut national d'histoire de l'art](https://inha.fr/fr/index.html), Paris for the [Richelieu. Histoire du quartier](https://www.inha.fr/fr/recherche/le-departement-des-etudes-et-de-la-recherche/domaines-de-recherche/histoire-des-collections-histoire-des-institutions-artistiques-et-culturelles-economie-de-l-art/richelieu-histoire-du-quartier.html) program. Here is a [small interview](https://actu.epfl.ch/news/dh-creates-the-chance-to-re-create-re-present-and-/) where I talked about my interests.
