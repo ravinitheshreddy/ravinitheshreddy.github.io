@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-16'
 papers:
   clymhpMAAAAJ:9yKSN-GCB0IC:
     citations: 6
@@ -10,9 +10,13 @@ papers:
     title: 'Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand Youth Deviance in the Italian City of Turin'
     year: '2025'
   clymhpMAAAAJ:UeHWp8X0CEIC:
-    citations: 159
+    citations: 162
     title: 'Generative AI literacy: Twelve defining competencies'
     year: '2025'
+  clymhpMAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: "Design thinking in European security research\u2013An empirical evaluation"
+    year: '2024'
   clymhpMAAAAJ:d1gkVwhDpl0C:
     citations: 8
     title: Adaptive Critic Design for Extreme Learning Machines applied to noisy and drifting industrial processes
