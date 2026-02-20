@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-20'
 papers:
   clymhpMAAAAJ:9yKSN-GCB0IC:
     citations: 6
@@ -10,7 +10,7 @@ papers:
     title: 'Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand Youth Deviance in the Italian City of Turin'
     year: '2025'
   clymhpMAAAAJ:UeHWp8X0CEIC:
-    citations: 162
+    citations: 172
     title: 'Generative AI literacy: Twelve defining competencies'
     year: '2025'
   clymhpMAAAAJ:YsMSGLbcyi4C:
@@ -30,6 +30,6 @@ papers:
     title: 'Magnetic Metamaterials: A comparative study of resonator geometry and metal conductivity'
     year: '2016'
   clymhpMAAAAJ:u5HHmVD_uO8C:
-    citations: 7
+    citations: 6
     title: Extreme Learning Machines with frequency based noise filtering for prediction of critical digressions in a noisy industrial process
     year: '2017'
