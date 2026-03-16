@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-16'
 papers:
   clymhpMAAAAJ:9yKSN-GCB0IC:
     citations: 6
     title: Advance Predictions of critical digressions in a noisy industrial process-performance of Extreme Learning Machines versus Artificial Neural Networks
     year: '2018'
   clymhpMAAAAJ:Tyk-4Ss8FVUC:
-    citations: 0
+    citations: 1
     title: 'Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand Youth Deviance in the Italian City of Turin'
     year: '2025'
   clymhpMAAAAJ:UeHWp8X0CEIC:
-    citations: 183
+    citations: 191
     title: 'Generative AI literacy: Twelve defining competencies'
     year: '2025'
   clymhpMAAAAJ:YsMSGLbcyi4C:
@@ -21,6 +21,10 @@ papers:
     citations: 8
     title: Adaptive Critic Design for Extreme Learning Machines applied to noisy and drifting industrial processes
     year: '2018'
+  clymhpMAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: 'DDialogue: A Collaborative Framework for Cross-Sectoral Dialogue through Data'
+    year: '2026'
   clymhpMAAAAJ:qjMakFHDy7sC:
     citations: 0
     title: Searching for visual patterns in a children's drawings collection
