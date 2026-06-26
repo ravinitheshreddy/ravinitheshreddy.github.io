@@ -1,22 +1,18 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-26'
 papers:
   clymhpMAAAAJ:9yKSN-GCB0IC:
     citations: 6
     title: Advance Predictions of critical digressions in a noisy industrial process-performance of Extreme Learning Machines versus Artificial Neural Networks
     year: '2018'
   clymhpMAAAAJ:Tyk-4Ss8FVUC:
-    citations: 1
+    citations: 5
     title: 'Co-Designing with Multiple Stakeholders and Datasets: A Community-Centered Process to Understand Youth Deviance in the Italian City of Turin'
     year: '2025'
   clymhpMAAAAJ:UeHWp8X0CEIC:
-    citations: 240
+    citations: 272
     title: 'Generative AI literacy: Twelve defining competencies'
     year: '2025'
-  clymhpMAAAAJ:WF5omc3nYNoC:
-    citations: 5
-    title: 'Generative AI literacy: Twelve defining competencies. arXiv'
-    year: '2024'
   clymhpMAAAAJ:YsMSGLbcyi4C:
     citations: 0
     title: "Design thinking in European security research\u2013An empirical evaluation"
@@ -41,3 +37,7 @@ papers:
     citations: 6
     title: Extreme Learning Machines with frequency based noise filtering for prediction of critical digressions in a noisy industrial process
     year: '2017'
+  clymhpMAAAAJ:ufrVoPGSRksC:
+    citations: 1
+    title: Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing
+    year: '2026'
