@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work `DDialogue: a Collaborative Framework for Cross-Sectoral Dialogue through Data` got accepted for ACM Participatory Design Conference (PDC) 2025.
+Our work `DDialogue: a Collaborative Framework for Cross-Sectoral Dialogue through Data` got accepted for ACM Participatory Design Conference (PDC) 2026.
