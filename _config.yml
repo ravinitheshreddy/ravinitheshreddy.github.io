@@ -205,8 +205,8 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
-    output: true
+  # projects:
+  #   output: true
   teachings:
     output: true
 
@@ -251,6 +251,7 @@ exclude:
   - _pages/teaching.md
   - _pages/repositores.md
   - _pages/projects.md
+  - _projects/
   - purgecss.config.js
   - README.md
   - readme_preview/
