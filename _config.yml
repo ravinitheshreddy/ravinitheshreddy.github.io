@@ -251,6 +251,7 @@ exclude:
   - _pages/teaching.md
   - _pages/repositores.md
   - _pages/projects.md
+  - _pages/cv.md
   - _projects/
   - purgecss.config.js
   - README.md
