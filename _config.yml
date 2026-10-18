@@ -249,13 +249,15 @@ exclude:
   - _pages/books.md
   - _pages/profiles.md
   - _pages/teaching.md
-  - _pages/repos
+  - _pages/repositores.md
+  - _pages/projects.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - gems/
   - migrations/
   - vendor
+  - _posts/
 keep_files:
   - CNAME
   - .nojekyll
