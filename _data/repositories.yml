@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ravinitheshreddy
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ravinitheshreddy/IMAJ-childrens-drawings
+  - ravinitheshreddy/Enriching-RICH-Data
+  - ravinitheshreddy/terzani_online_museum
+  - ravinitheshreddy/data-visualization-project-2021-famousworld
+  - ravinitheshreddy/face_of_the_war
+  - ravinitheshreddy/Digital-Musicology-Project
+  - ravinitheshreddy/SubtlePropaganda
